@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <title>Converta</title>
+
+        <link rel="icon" type="image/png" href="imgs/C.png">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+        <link rel="stylesheet" href="css/styles.css">
+
+    </head>
+    <body style="background-color: #7fb5c7">
+        <header class="jumbotron shadow-lg">
+            <div class="container">
+                <div class="row row-header">
+                    <div class="offset-2 offset-sm-0 col-8 col-sm-4 align-self-center">
+                        <h1 style="font-family: Chilanka,serif;"><strong>Converta</strong></h1>
+                    </div>
+                    <div class="col-12 offset-3 col-sm-2 align-self-center">
+                        <h5 style="font-family: Chilanka,serif;">Support us:</h5>
+                    </div>
+                    <div class="col-4 col-sm-1 align-self-center">
+                        <a class="btn" target="_blank" href="https://pay.google.com/intl/en_in/about/"><i class="fa fa-2x fa-google-wallet fa-lg"></i> </a>
+                    </div>
+                    <div class="col-4 col-sm-1 align-self-center">
+                        <a class="btn" target="_blank" href="https://www.paypal.com/"><i class="fa fa-2x fa-paypal fa-lg"></i> </a>
+                    </div>
+                    <div class="col-4 col-sm-1 align-self-center">
+                        <a class="btn" target="_blank" href="https://pay.google.com/intl/en_in/about/"><i class="fa fa-2x fa-credit-card fa-lg"></i> </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="row">
+                <div class="offset-sm-4">
+                    <!-- Document type chooser -->
+                    <div class="dropdown">
+                        <button id="dLabel" class="dropdown-select" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            --Document Type--
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" id="dli" aria-labelledby="dLabel">
+                            <li>--Document Type--</li>
+                            <li>Audio</li>
+                            <li>Image</li>
+                            <li>Video</li>
+                            <li>Docs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-4">
+                    <!-- format 1 chooser -->
+                    <div class="dropdown" id="left">
+                        <button id="ldLabel" class="dropdown-select" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            --Format 1--
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" id="ldli" aria-labelledby="ldLabel">
+                            <li>--Format 1--</li>
+                            <li>Audio</li>
+                            <li>Image</li>
+                            <li>Video</li>
+                            <li>Docs</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="offset-sm-1 col-12 align-self-center col-sm-1">
+                    <i class="fa fa-exchange fa-2x"></i>
+                </div>
+                <div class="offset-sm-1 col-12 col-sm-4">
+                    <!-- format 2 chooser -->
+                    <div class="dropdown" id="left">
+                        <button id="rdLabel" class="dropdown-select" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            --Format 2--
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" id="rdli" aria-labelledby="ldLabel">
+                            <li>--Format 2--</li>
+                            <li>Audio</li>
+                            <li>Image</li>
+                            <li>Video</li>
+                            <li>Docs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-sm-3 col-sm-4 custom-file">
+                    <form>
+                        <input type="file" class="custom-file-input" id="customFile">
+                        <label class="custom-file-label" for="customFile">Choose file</label>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-sm- col-sm-4">
+                    <button class="btn btn-primary btn-block" type="button">Convert!</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-1">
+                        <a class="btn" target="_blank" href="https://pay.google.com/intl/en_in/about/"><i class="fa fa-2x fa-envelope fa-lg"></i> </a>
+                    </div>
+                    <div class="offset-7 col-3">
+                        <strong>Converta @ 2020 </strong>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="js/controls.js"></script>
+    </body>
+</html>
